@@ -53,6 +53,21 @@ export const projects: Project[] = [
     image: "/images/mapa-interactivo/2.png",
     images: ["/images/mapa-interactivo/2.png", "/images/mapa-interactivo/1.png"],
     github: "https://github.com/AndroidCodecta/fluttertest.git"
+  },
+  {
+    id: "dibro-web-plataforma",
+    title: "Plataforma Web Comercial - DIBRO SAC",
+    description: "Landing page corporativa y sistema de cotización para fábrica de artículos de gasfitería.",
+    fullDescription: "Desarrollo de una plataforma web integral para DIBRO SAC, fabricante de conexiones y artículos de gasfitería. Incluye una landing page institucional para posicionamiento de marca, un catálogo interactivo de productos con filtros avanzados y un sistema de cotización dinámico que permite a los distribuidores generar solicitudes de presupuesto en tiempo real.",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Supabase","postgresql"],
+    image: "/images/dibro/1.png",
+    images: [
+      "/images/dibro/2.png", 
+      "/images/dibro/3.png",
+      "/images/dibro/4.png",
+      "/images/dibro/5.png"
+    ],
+    link: "https://www.dibrosac.com/"
   }
 ];
 export default function Home() {
